@@ -1,0 +1,36 @@
+.gallery_product img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+}
+#portfolio{
+    padding: 40px;
+    margin: 0 auto;
+}
+.gallery-title{
+    font-size: 36px;
+    color: red;
+    text-align: center;
+    font-weight:700;
+    padding: 40px 20px 60px;
+}
+.filter-button {
+    font-size: 18px;
+    border : 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    margin-bottom: 30px;
+}
+.filter-button:hover{
+    font-size: 18px;
+    border : 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    color:white;  
+}
+.btn-default:active .filter-button:active{
+    background-color: green;
+    color:white;
+}

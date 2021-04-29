@@ -1,0 +1,369 @@
+/* FONTS*/
+/*font-family: 'Abhaya Libre', serif;
+font-family: 'Karla', sans-serif;*/
+@font-face {
+    font-family: "Reey";
+    src: url("../fonts/Reey.otf");
+}
+
+
+/* COMMUN*/
+body{
+    font-family: 'Abhaya Libre', serif;
+}
+h1{
+    font-family: 'Abhaya Libre', serif;
+}
+h3{
+    font-family: 'Reey';
+}
+.titleLeft{
+    padding-left: 20%;
+}
+.titleRight{
+    padding-right:20%;
+}
+h5{
+    font-weight: 900;
+}
+a:hover{
+    font-size: large;
+    text-decoration: none;
+}
+/* HIGHLIGHT*/
+.myhighlight{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFC300 50%);
+    padding-left: 5%;
+    padding-right:5%;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.myhighlightLink{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFC300 50%);
+    padding-left: 2%;
+    padding-right:2%;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-decoration: none;
+    color:black;
+}
+.myhighlightParcours{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFC300 50%);
+    padding-left: 1%;
+    padding-right:1%;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-decoration: none;
+    color:black;
+}
+.myhighlightButton:hover{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFC300 50%);
+    padding-left: 15%;
+    padding-right:15%;
+    font-weight: 900;
+    font-size: 2em;
+}
+.myhighlightButton{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFC300 50%);
+    padding-left: 15%;
+    padding-right:15%;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.myhighlightButton :active{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFC300 50%);
+    padding-left: 15%;
+    padding-right:15%;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.myhighlighth1{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FFC300 50%);
+    padding-left: 5%;
+    padding-right:5%;
+}
+/* TITLE*/
+.myTitle{
+    position: relative;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.myTitle1{
+    position:absolute;
+    z-index:1;
+    font-weight: 700;
+    font-size: 10em;
+    color: rgba(228, 228, 228, 0.6);
+    letter-spacing: -5px;
+}
+.myTitle2{
+    position: absolute;
+    top:1.5em;
+    z-index:2;
+    font-size: 4em;
+}
+/* ICONE Superposition*/
+.myIcone{
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.myIconetop{
+    position:absolute;
+    z-index:2;
+    top:1em;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #707070;
+    font-size: 1.5em;
+}
+.myIconebottom{
+    position: absolute;
+    z-index:1;
+    color: rgba(228, 228, 228, 0.6);
+    width:80px
+}
+
+/* HEADER*/
+.myheaderLogo{
+    width:250px;
+    height: auto;
+}
+.myHeader{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(#FFC300, white);
+}
+.mybuttoncircle{
+    border: solid 3px;
+}
+/* NAV*/
+.mynavLogo{
+    width: 40px;
+    height: auto;
+}
+nav{
+    height: 10vh;
+}
+.navbar{
+    background-color:white;
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.15) ;
+}
+.navbar-nav li a{
+    margin-left: 50px;
+    margin-right:50px;
+}
+.active{
+    font-weight: 700;
+}
+
+/* A PROPOS*/
+.myproposImg{
+    width:300px;
+    height: auto;
+}
+
+
+/* PARCOURS*/
+.myborderRight{
+    border-right: 2px black solid;
+}
+.myborderLeft{
+    border-left: 2px black solid;
+}
+
+/*CV*/
+.myband{
+    height: 200px;
+    background-color:#E4E4E4 ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* COMPETENCES*/
+.myskillsImg{
+    background-color:#EFEFEF ;
+}
+.myskillsImg:hover{
+    width: 200px;
+    height: auto;
+    background-color:#EFEFEF ;
+    box-shadow: 12px 12px 2px 1px rgba(255, 195, 0, .7);
+}
+/* OUTILS */
+.logoTools{
+    max-width: 100px;
+}
+
+
+/* REALISATIONS*/
+.myrealisationLogo{
+    width: 350px;
+    height: auto;
+}
+
+/*FORMULAIRE*/
+.myForm input{
+    background-color :#F7F7F7;
+    border-radius: 0;
+    border-bottom: solid 1px #707070;
+}
+.myForm textarea{
+    background-color :#F7F7F7;
+    border-radius: 0;
+    border-bottom: solid 1px #707070;
+}
+.form-control{
+    border:0;
+}
+/* FOOTER */
+.myfooterLogo img{
+    width: 50%;
+    height: auto;
+}
+.myfooter{
+    background-color:lightgrey;
+}
+.myfooter hr{
+    width: 60%;
+}
+.myfooterLinks > li a{
+    text-decoration: none;
+    color: #343a40;
+}
+.myfooterLinks{
+    list-style-type: none;
+}
+
+
+/* PORTFOLIO test*/
+.filter-item img{
+    width:400px;
+}
+ul{
+    list-style: none;
+}
+.filter-menu li{
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+/*
+.filter-menu li:hover,
+.filter-menu li.current{
+
+}*/
+.filter-item li{
+    width: 50%;
+    padding: 2px;
+    float: left;
+}
+
+.filter-item li.active{
+    width: 50%;
+    padding: 2px;
+    transition: all 0.5s ease;
+}
+
+.filter-item li.delete{
+    width: 0%;
+    padding: 0;
+    transition: all 0.5s ease;
+}
+
+/* PORTFOLIO MODAL */
+img {
+    width: 350px;
+    height: auto;
+}
+.portfolio-desc {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+	left: 0;
+	top: 0;
+	color: rgba(220, 220, 220, 0.7);
+}
+
+.portfolio-item:hover .portfolio-desc {
+	padding-top: 20%;
+	height: 100%;
+    transition: all 200ms ease-in-out 0s;
+	opacity: 1;
+}
+.portfolio-desc:hover  {
+	background-color: rgba(255, 195, 0, .7)
+}
+
+.portfolio-item .portfolio-desc a {
+	color: #fff;
+}
+.portfolio-item .portfolio-desc a:hover {
+	text-decoration: none;
+}
+
+.portfolio-link h5, i{
+    font-weight: 300;
+    color: black;
+}
+/******************************MEDIA QUERIES********************/
+@media screen and (max-width: 800px) {
+    .myTitle1{
+        font-size: 7.5em;
+    }
+    .myTitle2{
+        font-size: 3em;
+    }
+}
+@media screen and (max-width: 700px) {
+    .myTitle1{
+        font-size: 7.5em;
+    }
+    .myTitle2{
+        font-size: 3em;
+    }
+    .filter-menu li{
+        margin: 10px 10px;
+    }
+    .myfooterLogo img{
+        width: 80%; 
+    }
+}
+@media screen and (max-width: 600px) {
+    .myTitle1{
+        font-size: 6em;
+    }
+    .myTitle2{
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .myTitle1{
+        font-size: 5em;
+    }
+    .myTitle2{
+        font-size: 2em;
+    }
+    .myfooterLogo img{
+        width: 40%; 
+    }
+}
+@media screen and (max-width: 400px) {
+    .myTitle1{
+        font-size: 4em;
+    }
+    .myTitle2{
+        font-size: 1.5em;
+    }
+    .myfooterLogo img{
+        width: 40%; 
+    }
+}
